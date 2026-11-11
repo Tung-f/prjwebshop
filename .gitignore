@@ -147,3 +147,15 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+# Fashion Store custom rules
+
+# Uploaded user images
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Local development files
+.vscode/
